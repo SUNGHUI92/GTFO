@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -254,10 +255,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.SuspendLayout();
+            // 
+            // Form4
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1104, 700);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Location = new System.Drawing.Point(-2, 2);
+            this.Name = "Form4";
+            this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
+            this.ResumeLayout(false);
+>>>>>>> 2c4943974f7e009d32315ec622de7451bae59a70
 
         }
 
         #endregion
+<<<<<<< HEAD
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn No;
@@ -276,5 +295,7 @@
         private System.Windows.Forms.DateTimePicker last_time;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
+=======
+>>>>>>> 2c4943974f7e009d32315ec622de7451bae59a70
     }
 }

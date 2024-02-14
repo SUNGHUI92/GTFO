@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
@@ -253,10 +254,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.SuspendLayout();
+            // 
+            // Form2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1104, 700);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form2";
+            this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
+            this.ResumeLayout(false);
+>>>>>>> 2c4943974f7e009d32315ec622de7451bae59a70
 
         }
 
         #endregion
+<<<<<<< HEAD
 
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button sch_btn;
@@ -275,5 +293,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn productType;
         private System.Windows.Forms.DataGridViewTextBoxColumn etc;
         private System.Windows.Forms.Button button1;
+=======
+>>>>>>> 2c4943974f7e009d32315ec622de7451bae59a70
     }
 }

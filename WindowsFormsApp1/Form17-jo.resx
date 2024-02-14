@@ -209,6 +209,7 @@
         6k2X09PzHz9fStQol/bRAAAAAElFTkSuQmCC
 </value>
   </data>
+<<<<<<< HEAD
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -275,6 +276,8 @@
         6k2X09PzHz9fStQol/bRAAAAAElFTkSuQmCC
 </value>
   </data>
+=======
+>>>>>>> 2c4943974f7e009d32315ec622de7451bae59a70
   <data name="button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
