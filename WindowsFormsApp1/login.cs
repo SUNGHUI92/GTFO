@@ -40,6 +40,10 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string id = idTextbox.Text;
+            string pw = passwordTextBox.Text;
+
+
             this.Visible = false;
             main form1 = new main();
             form1.Show();
@@ -48,16 +52,16 @@ namespace WindowsFormsApp1
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void idTextbox_TextChanged(object sender, EventArgs e)
         {
-            textBox3.MaxLength = 14;
+            passwordTextBox.MaxLength = 14;
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void passwordTextBox_TextChanged(object sender, EventArgs e)
         {
             
-            textBox3.PasswordChar = '*';
-            textBox3.MaxLength = 14;
+            passwordTextBox.PasswordChar = '*';
+            passwordTextBox.MaxLength = 14;
 
         }
     }
