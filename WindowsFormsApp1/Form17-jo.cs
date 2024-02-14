@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form16 Form16 = new Form16();
+            Form16 Form16 = new Form16();//4
             Form16.Show();//2
         }
     }
